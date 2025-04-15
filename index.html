@@ -7,14 +7,20 @@
   <meta name="description" content="Civic Lens is an independent news organization committed to unbiased reporting, investigative journalism, and truth-driven storytelling.">
   <meta name="author" content="Civic Lens">
 
-<!-- ADD Open Graph Meta for title, description, image, url, type -->
+<!-- Open Graph Meta for title, description, image, url, type -->
+  <meta property="og:title" content="Civic Lens">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="videos/water-management.mp4">
+  <meta property="og:descripton" content="Civic Lens is an independent news organization committed to unbiased reporting, investigative journalism, and truth-driven storytelling.">
 
-<!-- ADD link to stylesheet -->
+<!-- link to stylesheet -->
+  <link rel="stylesheet" href="./styles.css">
 
   <title>Civic Lens</title>
 </head>
 <body>
-  <a href="#welcome-to-civic-lens" id="skip-to-content" class="skip-link">Skip to main content</a>
+  <a href="#main-content" id="skip-to-content" class="skip-link">Skip to main content</a>
 
   <header>
     <button id="theme-toggle" aria-label="Toggle light/dark mode">
@@ -39,8 +45,8 @@
     </nav>
   </header>
 
-  <main>
-    <section id="welcome-to-civic-lens" class="wrapper">
+  <main id="main-content">
+    <section class="wrapper">
       <h2 class="title two">Welcome to Civic Lens</h2>
       <p>
         We are an independent news organization dedicated to unbiased reporting, investigative journalism, and truth-driven storytelling. At Civic Lens, our mission is to expose the facts, amplify marginalized voices, and shine light on the systems that shape our society.
@@ -59,7 +65,7 @@
         <p>
           The Department of Justice has announced a full investigation into decades of water distribution practices affecting tribal lands and rural communities.
         </p>
-        <video>
+        <video controls>
           <source src="videos/water-management.mp4" type="video/mp4">
         </video>
       </section>
@@ -67,7 +73,7 @@
       <section class="wrapper breaking">
         <h3 class="title three">Voter Suppression Bill Faces Pushback in State Supreme Court</h3>
         <p>Civil rights advocates argue that the bill disenfranchises thousands of voters and potential voters of color and those in rural areas of the country.</p>
-        <video>
+        <video controls>
           <source src="videos/voter-suppression.mp4" type="video/mp4">
         </video>
       </section>
