@@ -358,6 +358,7 @@ footer {
       text-decoration: none;
       background-color: var(--news-flash);
       padding: 0.5rem;
+      transition: var(--transition);
     }
 
     & li {
@@ -444,7 +445,7 @@ footer {
 /* x-large styles 1024px */
 @media screen and (min-width: 1024px) {
   header, main, aside, footer {
-    padding-inline: 10rem;
+    padding-inline: clamp(1.5rem, 5vw + 1rem, 10rem);
   }
 
   .wrapper.featured {
@@ -457,7 +458,7 @@ footer {
 }
 
 
-/* ///ADD/// Interaction Queries for color scheme light and dark and motion preference */
+/* Interaction Queries for color scheme light and dark and motion preference */
 @media (prefers-color-scheme: dark-mode) {
   body {
     background-color: var(--truth-text);
