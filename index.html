@@ -19,7 +19,7 @@
 
   <title>Civic Lens</title>
 </head>
-<body>
+<body class="light-mode">
   <a href="#main-content" id="skip-to-content" class="skip-link">Skip to main content</a>
 
   <header>
@@ -30,7 +30,7 @@
       </svg>
     </button>
 
-    <h1>Civic Lens</h1>
+    <h1 class="title one">Civic Lens</h1>
     <p class="tagline">See Clearly. Know Deeply. Act Justly.</p>
       
     <nav class="mobile-nav" aria-label="Mobile Navigation">
@@ -46,9 +46,9 @@
   </header>
 
   <main id="main-content">
-    <section class="wrapper">
+    <section class="wrapper intro">
       <h2 class="title two">Welcome to Civic Lens</h2>
-      <p>
+      <p class="text-content">
         We are an independent news organization dedicated to unbiased reporting, investigative journalism, and truth-driven storytelling. At Civic Lens, our mission is to expose the facts, amplify marginalized voices, and shine light on the systems that shape our society.
       </p>
 
@@ -57,12 +57,12 @@
       </blockquote>
     </section>
 
-    <section id="breaking-news" class="wrapper">
+    <section id="breaking" class="wrapper breaking">
       <h2 class="title two">Breaking News</h2>
 
-      <section class="wrapper breaking">
+      <section class="wrapper sub-breaking">
         <h3 class="title three">Federal Investigation Launced into Water Mismanagement in the Southwest</h3>
-        <p>
+        <p class="text-content">
           The Department of Justice has announced a full investigation into decades of water distribution practices affecting tribal lands and rural communities.
         </p>
         <video controls>
@@ -70,115 +70,135 @@
         </video>
       </section>
 
-      <section class="wrapper breaking">
+      <section class="wrapper sub-breaking">
         <h3 class="title three">Voter Suppression Bill Faces Pushback in State Supreme Court</h3>
-        <p>Civil rights advocates argue that the bill disenfranchises thousands of voters and potential voters of color and those in rural areas of the country.</p>
+        <p class="text-content">Civil rights advocates argue that the bill disenfranchises thousands of voters and potential voters of color and those in rural areas of the country.</p>
         <video controls>
           <source src="videos/voter-suppression.mp4" type="video/mp4">
         </video>
       </section>
     </section>
         
-    <section id="featured-articles" class="wrapper">
+    <section id="featured-articles" class="wrapper featured">
       <h2 class="title two">Featured Articles</h2>
       
-        <section class="wrapper featured">
+        <section class="wrapper sub-featured">
           <h3 class="title three">The Cost of Silence: Whistleblower Stories from Inside Tech Giants</h3>
-          <p>Former employees speak out about ethical breaches in data privacy and surveillance.</p>
+          <p class="text-content">Former employees speak out about ethical breaches in data privacy and surveillance.</p>
         </section>
       
-        <section class="wrapper featured">
+        <section class="wrapper sub-featured">
           <h3 class="title three">Unequal Justice: How Bail Systems Harm the Poor</h3>
-          <p>An investigative series on cash bail and its disproportionate impact.</p>
+          <p class="text-content">An investigative series on cash bail and its disproportionate impact.</p>
         </section>
       
-        <section class="wrapper featured">
+        <section class="wrapper sub-featured">
           <h3 class="title three">Invisible Work: The Lives of Migrant Caregivers</h3>
-          <p>Humanizing the labor that keeps households and economies afloat.</p>
+          <p class="text-content">Humanizing the labor that keeps households and economies afloat.</p>
         </section>
       
-        <section class="wrapper featured">
+        <section class="wrapper sub-featured">
           <h3 class="title three">Redlined Still: A New Map of Modern-Day Housing Discrimination</h3>
-          <p>Data visualization showing systemic inequality in real estate today.</p>
+          <p class="text-content">Data visualization showing systemic inequality in real estate today.</p>
         </section>
       
-        <section class="wrapper featured">
+        <section class="wrapper sub-featured">
           <h3 class="title three">Climate Injustice: Who Pays for Pollution?</h3>
-          <p>Communities of color bear the brunt of environmental damage.</p>
+          <p class="text-content">Communities of color bear the brunt of environmental damage.</p>
         </section>
       
-        <section class="wrapper featured">
+        <section class="wrapper sub-featured">
           <h3 class="title three">Teaching Under Fire: The Fight for Inclusive Education</h3>
-          <p>Teachers navigate book bans, curriculum restrictions, and culture wars.</p>
+          <p class="text-content">Teachers navigate book bans, curriculum restrictions, and culture wars.</p>
         </section>
       
-        <section class="wrapper featured">
+        <section class="wrapper sub-featured">
           <h3 class="title three">Food Deserts and Corporate Abandonment</h3>
-          <p>Why access to nutrition is a zip code lottery.</p>
+          <p class="text-content">Why access to nutrition is a zip code lottery.</p>
         </section>
       
-        <section class="wrapper featured">
+        <section class="wrapper sub-featured">
           <h3 class="title three">Policing Mental Health: A Broken Response System</h3>
-          <p>Examining police interactions with those in crisis.</p>
+          <p class="text-content">Examining police interactions with those in crisis.</p>
         </section>
       
-        <section class="wrapper featured">
+        <section class="wrapper sub-featured">
           <h3 class="title three">The Disinformation Economy</h3>
-          <p>Tracing profit motives behind fake news empires.</p>
+          <p class="text-content">Tracing profit motives behind fake news empires.</p>
         </section>
       
-        <section class="wrapper featured">
+        <section class="wrapper sub-featured">
           <h3 class="title three">Facing the Algorithm: AI and Racial Bias</h3>
-          <p>The coded inequalities that shape our lives.</p>
+          <p class="text-content">The coded inequalities that shape our lives.</p>
         </section>
       
-        <section class="wrapper featured">
+        <section class="wrapper sub-featured">
           <h3 class="title three">The Voting Maze</h3>
-          <p>A guide to understanding your rights amid changing laws.</p>
+          <p class="text-content">A guide to understanding your rights amid changing laws.</p>
         </section>
       
-        <section class="wrapper featured">
+        <section class="wrapper sub-featured">
           <h3 class="title three">After the Cameras Leave: Long-Term Crisis Recovery</h3>
-          <p>Rebuilding trust and infrastructure in disaster-hit communities.</p>
+          <p class="text-content">Rebuilding trust and infrastructure in disaster-hit communities.</p>
         </section>
     </section>
-
   </main>
 
   <aside>
     <h2 class="title two">Stay Informed. Stay Empowered.</h2>
     <p>Receive text messages with the news you want to know.</p>
 
-    <form action="post" method="https://wp.zybooks.com/form-viewer.php" autocomplete="on">
-      <label for="user-name">Name</label>
-      <input type="text" id="user-name" name="userName">
+    <form action="https://wp.zybooks.com/form-viewer.php" method="post" autocomplete="on">
+      <div class="input-wrapper">
+        <div class="input-container">
+          <label for="user-name">Name</label>
+          <input type="text" id="user-name" name="userName">
+        </div>
 
-      <label for="user-mobile">Mobile</label>
-      <input type="tel" id="user-mobile" name="userMobile">
+        <div class="input-container">
+          <label for="user-mobile">Mobile</label>
+          <input type="tel" id="user-mobile" name="userMobile">
+        </div>
+      </div>
 
-      <fieldset>
+      <fieldset class="notification">
         <legend>Notification Preferences</legend>
+        <div class="checkbox-container">
+          <div class="checkboxes">
+            <input type="checkbox" id="breaking-news" name="newsletter" value="breakingNews">
+            <label for="breaking-news">Breaking News</label>
+          </div>
 
-        <input type="checkbox" id="breaking-news" name="newsletter" value="breakingNews">
-        <label for="breaking-news">Breaking News</label>
+          <div class="checkboxes">
+            <input type="checkbox" id="politics" name="newsletter" value="politics">
+            <label for="politics">Politics</label>
+          </div>
 
-        <input type="checkbox" id="politics" name="newsletter" value="politics">
-        <label for="politics">Politics</label>
+          <div class="checkboxes">
+            <input type="checkbox" id="weather" name="newsletter" value="weather">
+            <label for="politics">Weather</label>
+          </div>
 
-        <input type="checkbox" id="weather" name="newsletter" value="weather">
-        <label for="politics">Weather</label>
+          <div class="checkboxes">
+            <input type="checkbox" id="sports" name="newsletter" value="sports">
+            <label for="politics">Sports</label>
+          </div>
 
-        <input type="checkbox" id="sports" name="newsletter" value="sports">
-        <label for="politics">Sports</label>
+          <div class="checkboxes">
+            <input type="checkbox" id="entertainment" name="newsletter" value="entertainment">
+            <label for="politics">Entertainment</label>
+          </div>
 
-        <input type="checkbox" id="entertainment" name="newsletter" value="entertainment">
-        <label for="politics">Entertainment</label>
+          <div class="checkboxes">
+            <input type="checkbox" id="world" name="newsletter" value="world">
+            <label for="politics">World</label>
+          </div>
 
-        <input type="checkbox" id="world" name="newsletter" value="world">
-        <label for="politics">World</label>
-
-        <input type="checkbox" id="financial" name="newsletter" value="financial">
-        <label for="politics">Financial</label>
+          <div class="checkboxes">
+            <input type="checkbox" id="financial" name="newsletter" value="financial">
+            <label for="politics">Financial</label>
+          </div>
+        </div>
       </fieldset>
 
       <button>Subscribe</button>
